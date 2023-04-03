@@ -39,3 +39,17 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * [x] implement an overall list that saves the total number of hits and distances for every hole
 * [x] counter that checks what lat long coordinate this is
 * [x] handle calculation of distance per coord pair
+
+---
+
+<h3>Functionality:</h3>
+
+* Records current location data 
+* Displays distance from current location to next hole
+* Calculates straight-line distance between current and previous point
+* Calculates total distance and number of strokes per hole
+* Allows for customization of hole coordinates for different courses
+
+<h3>Screenshots:</h3>
+
+<img src="assets/golf-tracker-ss.png"/>
