@@ -1,6 +1,6 @@
 <h1>simple golf location tracker</h1>
 
-> **THIS SOFTWARE IS UNFINISHED. Don't have any high expectations!**
+> **THIS WEBSITE IS UNFINISHED. Don't have any high expectations!**
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
