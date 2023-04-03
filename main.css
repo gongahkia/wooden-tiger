@@ -1,0 +1,37 @@
+body {
+    background-color:#002b36;
+    color:#fdf6e3;
+}
+
+h1 {
+    color:springgreen;
+}
+
+#standardDiv {
+    text-align:center;
+}
+
+#wario {
+    margin-top:25px;
+}
+
+table, th, td{
+    border:solid;
+    border-collapse:collapse;
+}
+
+#coordTable {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Flexbox heaven */
+
+.container {
+    display:flex;
+    justify-content:space-around;
+}
+
+.item-item1, .item-item2, .item-item3{
+    font-family:'Courier New', Courier, monospace;
+}
