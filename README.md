@@ -53,4 +53,4 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
 <h3>Screenshots:</h3>
 
-<img src="assets/golf-tracker-ss.png"/>
+<img src="assets/goldtracker.png"/>
