@@ -7,12 +7,86 @@ h1 {
     color:springgreen;
 }
 
-#standardDiv {
-    text-align:center;
+.titleCard {
+    animation-name:titleOnStartup;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
 }
 
-#wario {
-    margin-top:25px;
+.buttonAni {
+    background-color: white;
+    border: 5px solid green;
+    color: green;
+    font-size: 1rem;
+    padding: 10px 10px;
+    
+    /* on hover transition */
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;
+
+    animation-name:baseNotifOnStartup;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.buttonAni:hover {
+    color: white;
+    transform: translateY(-8px);
+    background-color:lightgreen;
+}
+
+.item-item2 {
+    animation-name:titleOnStartup;
+    animation-duration:2.2s;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.item-item3 {
+    animation-name:titleOnStartup;
+    animation-duration:2.5s;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+.golfball:hover {
+    animation-name:rotateOnStartup;
+    animation-timing-function: linear;
+    animation-duration:1s;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode:both;
+}
+
+.golfer:hover {
+    animation-name:rotateOnStartup;
+    animation-timing-function: linear;
+    animation-duration:1s;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode:both;
+}
+
+#standardDiv {
+    text-align:center;
 }
 
 table, th, td{
@@ -32,6 +106,53 @@ table, th, td{
     justify-content:space-around;
 }
 
-.item-item1, .item-item2, .item-item3{
+.item-item1, .item-item2, .item-item3 {
     font-family:'Courier New', Courier, monospace;
+}
+
+.item-item2, .item-item3 {
+    font-size:1.5rem;
+}
+
+.item-item2, .item-item3 {
+    margin-top: 15px;
+}
+
+.baseNotif {
+    animation-name:baseNotifOnStartup;
+    animation-duration:2s;
+    animation-timing-function:ease;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    animation-fill-mode:none;
+}
+
+/* Keyframes for animation */
+
+@keyframes baseNotifOnStartup {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes titleOnStartup {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes rotateOnStartup {
+    from {
+        transform:rotate(0deg);
+    } 
+    to {
+        transform:rotate(360deg);
+    }
 }
