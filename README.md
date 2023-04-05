@@ -25,7 +25,7 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
 <h3>To do:</h3>
 
-* [ ] beautify website interface with proper CSS (use CSS flex boxes)
+* [ ] set up on github.io static site
 * [ ] performant improvements
 * [ ] optimise for mobile users
 * [ ] try running on local phone device
@@ -39,6 +39,7 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * [x] implement an overall list that saves the total number of hits and distances for every hole
 * [x] counter that checks what lat long coordinate this is
 * [x] handle calculation of distance per coord pair
+* [x] beautify website interface with proper CSS (use CSS flex boxes)
 
 ---
 
