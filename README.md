@@ -1,7 +1,5 @@
 <h1>simple golf location tracker</h1>
 
-> **THIS WEBSITE IS UNFINISHED. Don't have any high expectations!**
-
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
 ---
@@ -23,15 +21,7 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * CSS Flexboxes
 * HTML, CSS in general *(surprisingly fun)*
 
-<h3>To do:</h3>
-
-* [ ] set up on github.io static site
-* [ ] performant improvements
-* [ ] optimise for mobile users
-* [ ] try running on local phone device
-
-
-<h3>Done:</h3>
+<h3>Implementation log:</h3>
 
 * [x] call Geolocation API
 * [x] create table for up to 100 lat long coords to be displayed to
