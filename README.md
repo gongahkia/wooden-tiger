@@ -1,4 +1,4 @@
-<h1>simple golf location tracker</h1>
+# gotta put that shit down and focus on golf
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
