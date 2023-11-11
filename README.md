@@ -1,27 +1,16 @@
-# gotta put that shit down and focus on golf
+# *gotta put that shit down and focus on golf*
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
----
+<img src="https://golfdigest.sports.sndimg.com/content/dam/images/golfdigest/fullset/2015/12/09/5668457d0c54eb520832fe99_tyler-the-creator-golf.jpg.rend.hgtvcom.966.1449.suffix/1573529472952.jpeg" align="right" height="300px">
 
-<h3>Technologies used:</h3>
+## takeaways
 
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>
-</p>
+* communicating with APIs using Typescript
+* dynamic website design with basic Typescript-HTML interaction
+* CSS flexboxes
 
-<img src="https://golfdigest.sports.sndimg.com/content/dam/images/golfdigest/fullset/2015/12/09/5668457d0c54eb520832fe99_tyler-the-creator-golf.jpg.rend.hgtvcom.966.1449.suffix/1573529472952.jpeg" align="right" height="450px">
-
-<h3>What I learned:</h3>
-
-* Communicating with APIs on Typescript
-* Dynamic Website design with basic Typescript-HTML interaction
-* CSS Flexboxes
-* HTML, CSS in general *(surprisingly fun)*
-
-<h3>Implementation log:</h3>
+## implementation log
 
 * [x] call Geolocation API
 * [x] create table for up to 100 lat long coords to be displayed to
@@ -31,9 +20,7 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * [x] handle calculation of distance per coord pair
 * [x] beautify website interface with proper CSS (use CSS flex boxes)
 
----
-
-<h3>Functionality:</h3>
+## functionality
 
 * Records current location data 
 * Displays distance from current location to next hole
@@ -41,6 +28,6 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * Calculates total distance and number of strokes per hole
 * Allows for customization of hole coordinates for different courses
 
-<h3>Screenshots:</h3>
+## screenshots
 
 <img src="assets/goldtracker.png"/>
