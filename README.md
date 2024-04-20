@@ -4,8 +4,6 @@
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
-<img src="https://golfdigest.sports.sndimg.com/content/dam/images/golfdigest/fullset/2015/12/09/5668457d0c54eb520832fe99_tyler-the-creator-golf.jpg.rend.hgtvcom.966.1449.suffix/1573529472952.jpeg" align="right" height="500px">
-
 ## takeaways
 
 * communicating with APIs using Typescript
