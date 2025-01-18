@@ -4,6 +4,8 @@
 
 Gotta put that shit down and focus on golf.
 
+<img src="assets/goldtracker.png"/>
+
 ## tech
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
@@ -31,7 +33,3 @@ Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 * Calculates straight-line distance between current and previous point
 * Calculates total distance and number of strokes per hole
 * Allows for customization of hole coordinates for different courses
-
-## screenshots
-
-<img src="assets/goldtracker.png"/>
