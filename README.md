@@ -1,6 +1,10 @@
 ![](https://img.shields.io/badge/wooden_tiger_1.0-passing-green)
 
-# *gotta put that shit down and focus on golf*
+# `wooden tiger`
+
+Gotta put that shit down and focus on golf.
+
+## tech
 
 Built in Typescript, HTML and CSS. Runs on in-browser `navigator` tooling.
 
